@@ -313,7 +313,7 @@ kbd {
   display: inline-block;
   margin-bottom: 0.4em;
   padding: 1px 8px;
-  /*border: #ccc 1px solid;*/
+  border: #ccc 1px solid;
   color: #666;
   text-shadow: #fff 0 1px 0;
   font-size: 0.9em;
@@ -479,15 +479,13 @@ a:hover {
     margin: 0 auto .5em;
     display: block;
     text-decoration: none;
-    border: 1px solid #666;
     width: 70%;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 2em;
 }
 
 .main-nav ul li a:hover {
-    /*border-color: #009E60;*/
     color: #009E60;
     transition: 0.2s all;
 }
