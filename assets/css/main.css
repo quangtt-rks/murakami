@@ -313,7 +313,7 @@ kbd {
   display: inline-block;
   margin-bottom: 0.4em;
   padding: 1px 8px;
-  border: #ccc 1px solid;
+  /*border: #ccc 1px solid;*/
   color: #666;
   text-shadow: #fff 0 1px 0;
   font-size: 0.9em;
@@ -483,11 +483,11 @@ a:hover {
     width: 70%;
     text-transform: uppercase;
     font-size: 0.8em;
-    line-height: 2.6em;
+    line-height: 2em;
 }
 
 .main-nav ul li a:hover {
-    border-color: #009E60;
+    /*border-color: #009E60;*/
     color: #009E60;
     transition: 0.2s all;
 }
@@ -587,11 +587,11 @@ a:hover {
   font-size: 0.9rem;
   color: #9EABB3;
   text-align: center;
-  text-decoration: none;
 }
 
 .pagination a {
   color: #009E60;
+  text-decoration: none;
 }
 
 .pagination a:hover {

@@ -15,7 +15,19 @@
         {{! Navigation menu }}
         {{> "nav"}}
 
-        {{! Social links [CHANGEABLE] }}
+        {{! Small separator between menu and social links }}
+        <div class="separator"></div>
+
+        {{#post}}
+        {{#if author}}
+            <div class="author">
+                <h3>{{author.name}}</h3>
+                <p>{{author.bio}}</p>
+            </div>
+        {{/if}}
+        {{/post}}
+
+        {{! Social links }}
         <div class="social-icons">
             <a href="https://github.com/quangtt" class="icon icon-github"></a>
             <a href="https://www.facebook.com/quangtt2812" class="icon icon-facebook"></a>
