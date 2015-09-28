@@ -51,7 +51,7 @@
   speak: none;
  
   display: inline-block;
-  text-decoration: inherit;
+  /*text-decoration: inherit;*/
   width: 1em;
   margin-right: .2em;
   text-align: center;
@@ -142,7 +142,7 @@ body {
   height: 100%;
   max-height: 100%;
   font-family: 'Lora', serif;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.45em;
   color: #3A4145;
 }
@@ -378,7 +378,7 @@ a {
 }
 
 a:hover {
-  color: #6565f4;
+  color: #55B59E;
 }
 
 .sidebar {
@@ -400,7 +400,7 @@ a:hover {
 }
 
 .sidebar a:hover {
-  color: #6565f4;
+  color: #55B59E;
 }
 
 .sidebar .logo {
@@ -487,8 +487,8 @@ a:hover {
 }
 
 .main-nav ul li a:hover {
-    border-color: #6565f4;
-    color: #6565f4;
+    border-color: #55B59E;
+    color: #55B59E;
     transition: 0.2s all;
 }
 
@@ -505,7 +505,7 @@ a:hover {
 .content .post {
   padding-bottom: 1em;
   margin-top: 1em;
-  border-bottom: #EBF2F6 1px solid;
+  border-bottom: #E2E2E2 1px solid;
   word-break: break-word;
   hyphens: auto;
 }
@@ -589,7 +589,7 @@ a:hover {
 }
 
 .pagination a {
-  color: #6565f4;
+  color: #55B59E;
 }
 
 .site-footer {
