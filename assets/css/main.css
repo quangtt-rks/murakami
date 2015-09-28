@@ -554,6 +554,20 @@ a:hover {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
+.author {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.author section.author-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.author section.author-bio {
+  font-size: .9em;
+}
+
 /* Project Page */
 .projects-content {
   margin-bottom: 2em;
@@ -737,8 +751,11 @@ a:hover {
   }
 
   .dotted-separator {
-    margin: 0 auto;
-    width: 60%; 
+    display: none;
+  }
+
+  .author {
+    display: none;
   }
 
   .main-nav ul {
