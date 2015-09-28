@@ -15,14 +15,12 @@
         {{! Navigation menu }}
         {{> "nav"}}
 
-        {{! Small separator between menu and social links }}
-        <div class="separator"></div>
-
         {{#post}}
         {{#if author}}
+            <div class="dotted-separator"></div>
             <div class="author">
-                <h3>{{author.name}}</h3>
-                <p>{{author.bio}}</p>
+                <section class="author-name">{{author.name}}</section>
+                <section class="author-bio">{{author.bio}}</section>
             </div>
         {{/if}}
         {{/post}}
