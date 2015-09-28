@@ -616,7 +616,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.site-footer {
+.sidebar .site-footer {
   position: absolute;
   bottom: 1em;
   left: 1em;
@@ -627,13 +627,17 @@ a:hover {
   color: #e6e9eb;
 }
 
-.site-footer a {
+.sidebar .site-footer a {
   color: #e6e9eb;
   text-decoration: none;
 }
 
-.site-footer a:hover {
+.sidebar .site-footer a:hover {
   color: white;
+}
+
+.body-footer .site-footer {
+  display: none;
 }
 
 .poweredby .ghost-link {
@@ -778,8 +782,28 @@ a:hover {
     width: auto;
   }
 
-  .site-footer {
+  .sidebar .site-footer {
     display: none;
+  }
+
+  .body-footer .site-footer {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    font-family: 'Lora', serif;
+    font-size: .7rem;
+    line-height: 1.4em;
+    color: #000;
+  }
+
+  .body-footer .site-footer a {
+    color: #e6e9eb;
+    text-decoration: none;
+  }
+
+  .body-footer .site-footer a:hover {
+    color: #009E60;
   }
 
   .sidebar .social-icons {
