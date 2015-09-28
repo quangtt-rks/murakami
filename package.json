@@ -1,5 +1,5 @@
 {
-  "name": "KISS",
+  "name": "Murakami",
   "version": "0.1.0",
   "description": "A minimalistic and responsive theme for Ghost.",
   "devDependencies": {
@@ -16,13 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:calincru/KISS.git"
+    "url": "git@github.com:quangtt/murakami.git"
   },
   "keywords": [
     "Ghost",
     "Blog"
   ],
-  "author": "Calin Cruceru",
+  "author": "Quangteo Media",
   "license": "MIT",
   "dependencies": {
     "meow": "^3.0.0"
