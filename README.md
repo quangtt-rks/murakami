@@ -1,17 +1,16 @@
-#KISS
-KISS is a minimalistic [Ghost](https://ghost.org/) theme inspired by
-[Phantom](https://github.com/Bartinger/phantom).
+# Murakami
+Murakami is a customized minimalistic [Ghost](https://ghost.org/) theme inspired by
+[KISS](https://github.com/calincru/KISS).
 
-You can see it live on [my blog](http://calincruceru.net).
+Check it out on [my blog](http://quangteomedia.com).
 
 ## Features
 - Minimalistic & responsive
 - Google Analytics
 - Disqus comments
-- Icon-font ([Fontello](/assets/fonts/config.json))
-- Linked social data support (twitter cards and opengraph)
+- 46 Social icons ([Entypo by Daniel Bruce](http://fontello.com/#search=social))
 - Minified assets
-- Code syntax highlighting (via [prism](http://prismjs.com/))
+- Code syntax highlighting (via [highlight.js](https://highlightjs.org/))
 
 ## SEO
 - Post tags as meta keywords
@@ -50,3 +49,6 @@ right of this page and then follow
 
 ![Mobile](http://i.imgur.com/WUZCboI.jpg)
 
+*P/s: Murakami is my favorite Japanese author.*
+*He was famous for [Norwegian Wood](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel))*
+*His fullname is Haruki Murakami (村上春樹).*
