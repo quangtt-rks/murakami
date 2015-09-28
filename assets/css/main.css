@@ -736,6 +736,11 @@ a:hover {
     width: 60%;
   }
 
+  .dotted-separator {
+    margin: 0 auto;
+    width: 60%; 
+  }
+
   .main-nav ul {
     margin: 0;
     padding-top: 0.5em;
