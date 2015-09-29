@@ -11,6 +11,11 @@ Check it out on [my blog](http://quangteomedia.com).
 - 46 Social icons ([Entypo by Daniel Bruce](http://fontello.com/#search=social))
 - Minified assets
 - Code syntax highlighting (via [highlight.js](https://highlightjs.org/))
+- Improved development workflow with gulp
+- Count post date by day, hover for specific date // TODO
+- Move meta to post bottom // TODO
+- Move social to separate file // TODO
+- Easy to set up GA and Disqus // TODO
 
 ## SEO
 - Post tags as meta keywords
