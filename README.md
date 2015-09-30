@@ -13,7 +13,6 @@ Check it out on [my blog](http://quangteomedia.com).
 - Code syntax highlighting (via [highlight.js](https://highlightjs.org/))
 - Improved development workflow with gulp
 - Count post date by day, hover for specific date // TODO
-	- Hover over a post > highlight title
 - Default cover image when blog cover is not set // TODO
 - Rails (http://www.mitchcrowe.com/10-most-underused-activerecord-relation-methods/)
 
@@ -24,11 +23,12 @@ Check it out on [my blog](http://quangteomedia.com).
 
 If you are testing ghost locally:
 ```bash
-git clone git@github.com:calincru/KISS.git
+git clone git@github.com:quangtt/murakami.git // SSH clone or
+git clone https://github.com/quangtt/murakami.git // HTTPS clone
 cd KISS
 npm install
 ./node_modules/.bin/gulp
-cp -r ../KISS /path/to/ghost/content/themes
+cp -r ../murakami /path/to/ghost/content/themes
 ```
 Then follow the steps mentioned [here](http://support.ghost.org/edit-ghost-theme/).
 
@@ -41,8 +41,6 @@ right of this page and then follow
 - Google Analytics tracking code ([sign
   up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
   and they will provide the whole new JS code)
-- Twitter handle in default.hbs
-- Static pages in page-projects.hbs
 
 ## Demo
 
