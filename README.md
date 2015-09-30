@@ -12,7 +12,6 @@ Check it out on [my blog](http://quangteomedia.com).
 - Minified assets
 - Code syntax highlighting (via [highlight.js](https://highlightjs.org/))
 - Improved development workflow with gulp
-- Count post date by day, hover for specific date // TODO
 - Default cover image when blog cover is not set // TODO
 - Rails (http://www.mitchcrowe.com/10-most-underused-activerecord-relation-methods/)
 
@@ -22,6 +21,7 @@ Check it out on [my blog](http://quangteomedia.com).
 ## Configuration
 
 If you are testing ghost locally:
+
 ```bash
 git clone git@github.com:quangtt/murakami.git # for SSH clone or
 git clone https://github.com/quangtt/murakami.git # for HTTPS clone
@@ -52,6 +52,5 @@ right of this page and then follow
 
 ![Mobile](http://i.imgur.com/WUZCboI.jpg)
 
-*P/s: Murakami is my favorite Japanese author.*
-*He was famous for [Norwegian Wood](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel))*
-*His fullname is Haruki Murakami (村上春樹).*
+*P/s: Murakami(村上春樹 - Haruki Murakami) is my favorite Japanese author.*
+*I love many of his novels, including [Norwegian Wood](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel))*

@@ -126,6 +126,7 @@
 .icon-vkontakte:before { content: '\e82c'; }
 .icon-smashing:before { content: '\e82d'; }
 .icon-clock:before { content: '\e82e'; }
+.icon-user:before { content: '\e82f'; }
 .icon-tag-1:before { content: '\e830'; }
 
 *, *:before, *:after {
