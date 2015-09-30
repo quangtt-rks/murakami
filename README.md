@@ -23,9 +23,9 @@ Check it out on [my blog](http://quangteomedia.com).
 
 If you are testing ghost locally:
 ```bash
-git clone git@github.com:quangtt/murakami.git // SSH clone or
-git clone https://github.com/quangtt/murakami.git // HTTPS clone
-cd KISS
+git clone git@github.com:quangtt/murakami.git # for SSH clone or
+git clone https://github.com/quangtt/murakami.git # for HTTPS clone
+cd murakami
 npm install
 ./node_modules/.bin/gulp
 cp -r ../murakami /path/to/ghost/content/themes
