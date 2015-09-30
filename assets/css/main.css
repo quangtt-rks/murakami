@@ -545,6 +545,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.content .post:hover .content .post .post-header a {
+  color: #009E60;
+}
+
 .separator {
   display: block;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);

@@ -14,8 +14,6 @@ Check it out on [my blog](http://quangteomedia.com).
 - Improved development workflow with gulp
 - Count post date by day, hover for specific date // TODO
 	- Hover over a post > highlight title
-- Move social to separate file // TODO
-- Easy to set up GA and Disqus // TODO
 - Default cover image when blog cover is not set // TODO
 - Rails (http://www.mitchcrowe.com/10-most-underused-activerecord-relation-methods/)
 
