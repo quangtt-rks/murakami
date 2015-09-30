@@ -8,9 +8,9 @@ Check it out on [my blog](http://quangteomedia.com).
 - Minimalistic & responsive
 - Google Analytics
 - Disqus comments
-- 46 Social icons ([Entypo by Daniel Bruce](http://fontello.com/#search=social))
+- 46 Social icons ([Fontello](http://fontello.com))
 - Minified assets
-- Code syntax highlighting (via [highlight.js](https://highlightjs.org/))
+- Code syntax highlighting (via [Highlight.js](https://highlightjs.org/))
 - Improved development workflow with gulp
 - Default cover image when blog cover is not set // TODO
 - Rails (http://www.mitchcrowe.com/10-most-underused-activerecord-relation-methods/)
@@ -37,10 +37,11 @@ right of this page and then follow
 [these steps](http://support.ghost.org/upload-theme-ghostpro/).
 
 **Note:** Make sure you modify all my personal stuff, such as:
-- Social links
-- Google Analytics tracking code ([sign
+- Social links (`social.hbs`)
+- Google Analytics tracking code (`analytics.hbs`) ([sign
   up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
   and they will provide the whole new JS code)
+- Disqus shortname (`disqus.hbs`)
 
 ## Demo
 
@@ -51,6 +52,8 @@ right of this page and then follow
 **Mobile look**
 
 ![Mobile](http://i.imgur.com/WUZCboI.jpg)
+
+___
 
 *P/s: Murakami(村上春樹 - Haruki Murakami) is my favorite Japanese author.*
 *I love many of his novels, including [Norwegian Wood](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel))*
