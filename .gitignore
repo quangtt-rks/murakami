@@ -6,3 +6,4 @@ dist/
 KISS.zip
 
 .ruby-version
+.gitattributes
