@@ -4,9 +4,9 @@ echo "\n**************** [MURAKAMI] ****************\n*"
 
 line_head="*  "
 current_version=$(git describe --tags "$(git rev-list --tags --max-count=1)")
-echo "$line_head Current version: $current_version.\n"
+echo "$line_head Current version: $current_version."
 
-echo "$line_head Searching for updates...\n"
+echo "$line_head Searching for updates..."
 git fetch --tags origin -q
 latest_version=$(git describe --tags "$(git rev-list --tags --max-count=1)")
 
@@ -19,4 +19,4 @@ else
   echo "* ✓ Murakami has been updated! Have fun!"
 fi
 
-echo "\n*\n**************** [MURAKAMI] ****************\n"
+echo "*\n**************** [MURAKAMI] ****************\n"
