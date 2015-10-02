@@ -35,9 +35,19 @@ If you have already installed the theme, you can update it executing
 sh update.sh
 ```
 
-## Demo
+## Preview
 
-*...comming soon...*
+![Desktop view](http://i.imgur.com/uPSWrxE.png)
+Desktop view
+
+![Desktop post view](http://i.imgur.com/RHsnxuM.png)
+Desktop view (single post)
+
+![Mobile view](http://i.imgur.com/crGgbQb.png)
+Mobile view
+
+![Mobile post view](http://i.imgur.com/nh4v29A.png)
+Mobile view (single post)
 
 ___
 
