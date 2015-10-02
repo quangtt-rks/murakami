@@ -23,6 +23,7 @@ Make sure you modify all my personal stuff, such as:
   up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
   and they will provide the whole new JS code)
 - Disqus shortname (`disqus.hbs`)
+- Blog cover: if you don't set your own cover, it'll show mine :)
 
 ## Check for update
 
