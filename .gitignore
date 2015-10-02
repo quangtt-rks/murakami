@@ -5,7 +5,6 @@ dist/
 *.sublime-*
 
 .ruby-version
-.gitattributes
 
 # Development
 assets/css/
