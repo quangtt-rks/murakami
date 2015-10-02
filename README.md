@@ -44,9 +44,11 @@ sh update.sh
 ![Desktop post view](http://i.imgur.com/RHsnxuM.png)
 
 **Mobile view**
+
 ![Mobile view](http://i.imgur.com/crGgbQb.png)
 
 **Mobile view (single post)**
+
 ![Mobile post view](http://i.imgur.com/nh4v29A.png)
 
 ___
