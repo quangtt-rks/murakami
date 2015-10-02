@@ -1,3 +1,3 @@
-*.hbs linguistic-language=Handlebars
+*.hbs linguist-language=Handlebars
 assets/build/all.min.css linguist-vendored=true
 assets/build/all.min.js linguist-vendored=true
