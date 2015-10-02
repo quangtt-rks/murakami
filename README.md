@@ -37,17 +37,17 @@ sh update.sh
 
 ## Preview
 
+**Desktop view**
 ![Desktop view](http://i.imgur.com/uPSWrxE.png)
-Desktop view
 
+**Desktop view (single post)**
 ![Desktop post view](http://i.imgur.com/RHsnxuM.png)
-Desktop view (single post)
 
+**Mobile view**
 ![Mobile view](http://i.imgur.com/crGgbQb.png)
-Mobile view
 
+**Mobile view (single post)**
 ![Mobile post view](http://i.imgur.com/nh4v29A.png)
-Mobile view (single post)
 
 ___
 
