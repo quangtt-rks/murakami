@@ -18,6 +18,21 @@ Check it out on [my blog](http://quangteomedia.com).
 ## SEO
 - Post tags as meta keywords
 
+## Installation
+1. Goto your ghost theme directory
+
+```bash
+cd /path/to/ghost/content/themes
+```
+
+2. Clone this repo
+
+```bash
+git clone https://github.com/quangtt/murakami.git
+```
+
+3. Have fun!
+
 ## Configuration
 Make sure you modify all my personal stuff, such as:
 - Social links (`social.hbs`)
