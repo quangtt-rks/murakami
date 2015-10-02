@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "============ MURAKAMI ============\n"
+echo "\n******************** MURAKAMI ********************\n"
 
 current_version=$(git describe --tags "$(git rev-list --tags --max-count=1)")
 echo "Current version: $current_version."
@@ -17,4 +17,4 @@ else
   echo "\nMurakami has been updated!"
 fi
 
-echo "\n============ / MURAKAMI ============"
+echo "\n******************** / MURAKAMI ********************\n"
