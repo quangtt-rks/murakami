@@ -14,7 +14,7 @@ if [ "$current_version" = "$latest_version" ]
 then
   echo "* ✓ You already have the latest version."
 else
-  echo "$line_head Updating $current_version ▶ $latest_version..."
+  echo "$line_head Updating $current_version ➞ $latest_version..."
   git merge "$latest_version" -q
   echo "* ✓ Murakami has been updated! Have fun!"
 fi
