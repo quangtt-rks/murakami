@@ -45,7 +45,7 @@ right of this page and then follow
 
 ## Update
 
-If you have already installed the theme, you can update it executing `sh update`.
+If you have already installed the theme, you can update it executing `sh update.sh`.
 
 ## Demo
 
