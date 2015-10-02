@@ -38,9 +38,11 @@ sh update.sh
 ## Preview
 
 **Desktop view**
+
 ![Desktop view](http://i.imgur.com/uPSWrxE.png)
 
 **Desktop view (single post)**
+
 ![Desktop post view](http://i.imgur.com/RHsnxuM.png)
 
 **Mobile view**
