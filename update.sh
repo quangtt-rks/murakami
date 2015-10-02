@@ -2,22 +2,20 @@
 
 echo "\n/*************** [MURAKAMI] ***************/\n"
 
-current_tag=$(git rev-list --tags --max-count=1)
-current_version=$(git describe --tags "$current_tag")
-echo "Current version: $current_version."
+current_version=$(git describe --tags "$(git rev-list --tags --max-count=1)")
+echo "Current version: $current_version.\n"
 
-echo "Searching for updates..."
+echo "Searching for updates...\n"
 git fetch --tags origin
-latest_tag=$(git rev-list --tags --max-count=1)
-latest_version=$(git describe --tags "$latest_tag")
+latest_version=$(git describe --tags "$(git rev-list --tags --max-count=1)")
 
-if [ "$current_tag" = "$latest_tag" ]
+if [ "$current_version" = "$latest_version" ]
 then
-  echo "\nYou already have the latest version."
+  echo "\n✓ You already have the latest version."
 else
   echo "\nUpdating $current_version to $latest_version..."
-  git merge "$latest_tag"
-  echo "\n✓ Murakami has been updated!"
+  git merge "$latest_version"
+  echo "\n✓ Murakami has been updated! Have fun!"
 fi
 
 echo "\n/*************** [MURAKAMI] ***************/\n"

@@ -3,7 +3,12 @@ node_modules/
 dist/
 
 *.sublime-*
-KISS.zip
 
 .ruby-version
 .gitattributes
+
+# Development
+assets/css/
+assets/js/
+gulpfile.js
+package.json

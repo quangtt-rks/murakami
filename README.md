@@ -11,41 +11,26 @@ Check it out on [my blog](http://quangteomedia.com).
 - 46 Social icons ([Fontello](http://fontello.com))
 - Minified assets
 - Code syntax highlighting (via [Highlight.js](https://highlightjs.org/))
-- Improved development workflow with gulp
-- Default cover image when blog cover is not set // TODO
-- Rails (http://www.mitchcrowe.com/10-most-underused-activerecord-relation-methods/)
+- Script for easy updating
 
 ## SEO
 - Post tags as meta keywords
 
 ## Configuration
-
-If you are testing ghost locally:
-
-```bash
-git clone git@github.com:quangtt/murakami.git # for SSH clone or
-git clone https://github.com/quangtt/murakami.git # for HTTPS clone
-cd murakami
-npm install
-./node_modules/.bin/gulp
-cp -r ../murakami /path/to/ghost/content/themes
-```
-Then follow the steps mentioned [here](http://support.ghost.org/edit-ghost-theme/).
-
-If you want to set it as your new ghost theme, click `Download ZIP` on the
-right of this page and then follow
-[these steps](http://support.ghost.org/upload-theme-ghostpro/).
-
-**Note:** Make sure you modify all my personal stuff, such as:
+Make sure you modify all my personal stuff, such as:
 - Social links (`social.hbs`)
 - Google Analytics tracking code (`analytics.hbs`) ([sign
   up](https://accounts.google.com/ServiceLogin?service=analytics&userexp=signup&hl=en)
   and they will provide the whole new JS code)
 - Disqus shortname (`disqus.hbs`)
 
-## Update
+## Check for update
 
-If you have already installed the theme, you can update it executing `sh update.sh`.
+If you have already installed the theme, you can update it executing
+
+```bash
+sh update.sh
+```
 
 ## Demo
 
