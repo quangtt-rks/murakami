@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "\n/*************** [MURAKAMI] ***************/\n"
 
@@ -11,7 +11,7 @@ git fetch --tags origin
 latest_tag=$(git rev-list --tags --max-count=1)
 latest_version=$(git describe --tags "$latest_tag")
 
-if [ $current_tag == $latest_tag ]
+if [ "$current_tag" = "$latest_tag" ]
 then
   echo "\nYou already have the latest version."
 else
