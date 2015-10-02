@@ -43,6 +43,10 @@ right of this page and then follow
   and they will provide the whole new JS code)
 - Disqus shortname (`disqus.hbs`)
 
+## Update
+
+If you have already installed the theme, you can update it executing `sh update`.
+
 ## Demo
 
 **Desktop look**
