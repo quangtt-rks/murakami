@@ -6,7 +6,5 @@ dist/
 
 .ruby-version
 
-# Development
-assets/css/
-assets/js/
-gulpfile.js
+# Minified
+assets/build/

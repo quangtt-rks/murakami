@@ -16,6 +16,10 @@ then
 else
   echo "$line_head Updating $current_version ➞ $latest_version..."
   git merge "$latest_version" -q
+  echo "$line_head npm..."
+  sudo npm install
+  echo "$line_head Minifying assets..."
+  ./node_modules/.bin/gulp
   echo "* ✓ Murakami has been updated! Have fun!"
 fi
 
