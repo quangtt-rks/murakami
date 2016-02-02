@@ -30,6 +30,15 @@ cd /path/to/ghost/content/themes
 ```bash
 git clone https://github.com/quangtt/murakami.git
 ```
+```bash
+cd murakami
+```
+```bash
+npm install
+```
+```bash
+./node_modules/.bin/gulp
+```
 
 * Have fun!
 

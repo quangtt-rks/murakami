@@ -5,6 +5,3 @@ dist/
 *.sublime-*
 
 .ruby-version
-
-# Minified
-assets/build/
