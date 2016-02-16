@@ -427,7 +427,7 @@ a:hover {
   font-size: .9em;
   font-style: italic;
   margin: 1em 0 1em 0;
-  line-height: 0.9em;
+  line-height: 1.5em;
 }
 
 .sidebar .footer {
@@ -532,6 +532,9 @@ a:hover {
   text-decoration: underline;
 }
 
+.content .post .post-meta .post-author a {
+  font-weight: bold;
+}
 .content .post:hover > .post-header a {
   color: #009E60;
 }
@@ -808,6 +811,7 @@ a:hover {
   }
 
   .content .post .post-thumb {
+    display: block;
     float: none;
     margin: .7em 0;
     width: 100%;

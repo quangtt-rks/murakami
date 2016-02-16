@@ -20,7 +20,7 @@
     
     <span class="post-meta">
         {{#author}}
-        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <span itemprop="author" class="post-author" itemscope itemtype="https://schema.org/Person">
             <span class="icon icon-user"></span>
             <a href="{{url}}"><span itemprop="name">{{name}}</span></a>
         </span>
@@ -29,6 +29,14 @@
         <time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="DD MMM YYYY"}}</time>
         {{#if tags}}<span class="icon icon-tag"></span>{{tags separator=" &bull; "}}{{/if}}
         <meta itemprop="dateModified" content="{{date format="DD MMM YYYY"}}"/>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+            <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+              <meta itemprop="url" content="{{@blog.logo absolute="true"}}">
+              <meta itemprop="width" content="300">
+              <meta itemprop="height" content="300">
+            </div>
+            <meta itemprop="name" content="Quangteo Media">
+        </div>
     </span>
     <div style="clear: both;"></div>
 </article>
