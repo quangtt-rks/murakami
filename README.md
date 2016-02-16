@@ -18,6 +18,12 @@ Check it out on [my blog](http://quangteomedia.com).
 ## SEO
 - Post tags as meta keywords
 
+
+## // TODO
+- Fix errors on Google Structured Data Testing Tool (Articles Rich Snippets & AMP Articles)
+- Fix Google International Targeting
+- Apply some standards of AMP HTML
+
 ## Installation
 * Goto your ghost theme directory
 
