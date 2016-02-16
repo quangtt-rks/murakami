@@ -2,27 +2,40 @@
 
 <main role="main">
     <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
-
+        <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="http://quangteomedia.com"/>
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
         {{! Everything below outputs content of the the post which has been published }}
-        <h1 class="post-title">{{{title}}}</h1>
+        <h1 class="post-title" itemprop="headline">{{{title}}}</h1>
         <hr>
         <section class="post-content">
             {{content}}
         </section>
         <span class="post-meta">
-            <span class="icon icon-user"></span>
-            by <a href="http://tumblr.quangteomedia.com" target="_blank">{{author.name}}</a>
+            {{#author}}
+            <span itemprop="author" class="post-author" itemscope itemtype="https://schema.org/Person">
+                <span class="icon icon-user"></span>
+                by <a href="{{url}}"><span itemprop="name">{{name}}</span></a>
+            </span>
+            {{/author}}
             <br />
             <span class="icon icon-clock"></span>
-            <time datetime="{{date format="YYYY-MM-DD"}}">
+            <time datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
                 {{date format='DD MMM YYYY'}}
             </time>
             {{#if tags}}
                 <span class="icon icon-tag"></span>{{tags separator=" &bull; "}}
             {{/if}}
+            <meta itemprop="dateModified" content="{{date format="DD MMM YYYY"}}"/>
+            <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                    <meta itemprop="url" content="{{@blog.url}}{{@blog.logo}}">
+                    <meta itemprop="width" content="300">
+                    <meta itemprop="height" content="300">
+                </div>
+                <meta itemprop="name" content="{{@blog.title}}">
+            </div>
         </span>
 
         <footer class="post-footer">
