@@ -496,7 +496,7 @@ a:hover {
 }
 
 .content .post .post-thumb {
-  /*float: left;*/
+  display: none;
   width: 100%;
   margin: .7em 0;
   overflow: hidden;
