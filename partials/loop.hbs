@@ -2,19 +2,35 @@
 {{#foreach posts}}
 
 <article class="{{post_class}}" role="article" itemscope itemtype="http://schema.org/Article">
+    <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="http://quangteomedia.com"/>
     <header class="post-header">
         <h2 class="post-title" itemprop="headline"><a href="{{url}}">{{{title}}}</a></h2>
     </header>
+    
+    <section class="post-thumb" itemprop="image" itemscope itemtype="https://schema.org/ImageObject"
+    style="background-image: url('{{image}}');">
+        <meta itemprop="url" content="{{image}}">
+        <meta itemprop="width" content="640">
+        <meta itemprop="height" content="480">
+    </section>
 
     <section class="post-excerpt">
         <p>{{excerpt}}&hellip;</p>
     </section>
-
+    
     <span class="post-meta">
+        {{#author}}
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span class="icon icon-user"></span>
+            <a href="{{url}}"><span itemprop="name">{{name}}</span></a>
+        </span>
+        {{/author}}
         <span class="icon icon-clock"></span>
         <time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date format="DD MMM YYYY"}}</time>
-        {{#if tags}}<span class="icon icon-tag-1"></span>{{tags separator=" &bull; "}}{{/if}}
+        {{#if tags}}<span class="icon icon-tag"></span>{{tags separator=" &bull; "}}{{/if}}
+        <meta itemprop="dateModified" content="{{date format="DD MMM YYYY"}}"/>
     </span>
+    <div style="clear: both;"></div>
 </article>
 
 {{/foreach}}

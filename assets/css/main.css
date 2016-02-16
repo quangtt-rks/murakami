@@ -78,56 +78,24 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.icon-github:before { content: '\e800'; }
-.icon-github-circled:before { content: '\e801'; }
-.icon-flickr:before { content: '\e802'; }
-.icon-flickr-circled:before { content: '\e803'; }
-.icon-vimeo:before { content: '\e804'; }
-.icon-vimeo-circled:before { content: '\e805'; }
-.icon-twitter:before { content: '\e806'; }
-.icon-twitter-circled:before { content: '\e807'; }
-.icon-facebook:before { content: '\e808'; }
-.icon-facebook-circled:before { content: '\e809'; }
-.icon-facebook-squared:before { content: '\e80a'; }
-.icon-gplus:before { content: '\e80b'; }
-.icon-gplus-circled:before { content: '\e80c'; }
-.icon-pinterest:before { content: '\e80d'; }
-.icon-pinterest-circled:before { content: '\e80e'; }
-.icon-tumblr:before { content: '\e80f'; }
-.icon-tumblr-circled:before { content: '\e810'; }
-.icon-linkedin:before { content: '\e811'; }
-.icon-linkedin-circled:before { content: '\e812'; }
-.icon-dribbble:before { content: '\e813'; }
-.icon-dribbble-circled:before { content: '\e814'; }
-.icon-stumbleupon:before { content: '\e815'; }
-.icon-stumbleupon-circled:before { content: '\e816'; }
-.icon-lastfm:before { content: '\e817'; }
-.icon-lastfm-circled:before { content: '\e818'; }
-.icon-rdio:before { content: '\e819'; }
-.icon-rdio-circled:before { content: '\e81a'; }
-.icon-spotify:before { content: '\e81b'; }
-.icon-spotify-circled:before { content: '\e81c'; }
-.icon-qq:before { content: '\e81d'; }
-.icon-instagram:before { content: '\e81e'; }
-.icon-dropbox:before { content: '\e81f'; }
-.icon-evernote:before { content: '\e820'; }
-.icon-flattr:before { content: '\e821'; }
-.icon-skype:before { content: '\e822'; }
-.icon-skype-circled:before { content: '\e823'; }
-.icon-renren:before { content: '\e824'; }
-.icon-sina-weibo:before { content: '\e825'; }
-.icon-paypal:before { content: '\e826'; }
-.icon-picasa:before { content: '\e827'; }
-.icon-soundcloud:before { content: '\e828'; }
-.icon-mixi:before { content: '\e829'; }
-.icon-behance:before { content: '\e82a'; }
-.icon-google-circles:before { content: '\e82b'; }
-.icon-vkontakte:before { content: '\e82c'; }
-.icon-smashing:before { content: '\e82d'; }
-.icon-clock:before { content: '\e82e'; }
-.icon-user:before { content: '\e82f'; }
-.icon-tag-1:before { content: '\e830'; }
+
+.icon-mail-alt:before { content: '\e800'; } /* '' */
+.icon-heart:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
+.icon-user:before { content: '\e803'; } /* '' */
+.icon-videocam:before { content: '\e804'; } /* '' */
+.icon-camera:before { content: '\e805'; } /* '' */
+.icon-picture:before { content: '\e806'; } /* '' */
+.icon-home:before { content: '\e807'; } /* '' */
+.icon-tag:before { content: '\e808'; } /* '' */
+.icon-clock:before { content: '\e809'; } /* '' */
+.icon-facebook-squared:before { content: '\e80a'; } /* '' */
+.icon-flickr:before { content: '\e80b'; } /* '' */
+.icon-github-squared:before { content: '\e80c'; } /* '' */
+.icon-instagram:before { content: '\e80d'; } /* '' */
+.icon-tumblr-squared:before { content: '\e80e'; } /* '' */
+.icon-skype:before { content: '\e80f'; } /* '' */
+.icon-stackoverflow:before { content: '\e810'; } /* '' */
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -144,8 +112,8 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: 'Lora', serif;
-  font-size: 1em;
+  font-family: 'Tinos', serif;
+  font-size: 1.2em;
   line-height: 1.45em;
   color: #3A4145;
 }
@@ -167,7 +135,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Lora', serif;
+  font-family: 'Tinos', serif;
 }
 
 h1 a, h2 a, h3 a,
@@ -224,7 +192,7 @@ hr {
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.6em 0 1.6em -2.2em;
+  margin: 1.6em 0 1.6em 0;
   padding: 0 0 0 1.6em;
   border-left: #009E60 0.4em solid;
 }
@@ -500,8 +468,8 @@ a:hover {
 
 .content {
   margin-left: 250px;
-  padding: 20px 50px 0 50px;
-  max-width: 800px;
+  padding: 20px 30px 0 30px;
+  /*max-width: 800px;*/
 }
 
 .content .post {
@@ -525,6 +493,22 @@ a:hover {
 
 .content .post .post-title a {
   text-decoration: none;
+}
+
+.content .post .post-thumb {
+  /*float: left;*/
+  width: 100%;
+  margin: .7em 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+}
+
+.content .post .post-thumb:after {
+  padding-top: 45%;
+  display: block;
+  content: '';
 }
 
 .content .post .post-excerpt p {
@@ -608,7 +592,7 @@ a:hover {
   width: 100%;
   max-width: 800px;
   margin: 3em 0px;
-  font-family: 'Lora', serif;
+  font-family: 'Tinos', serif;
   font-size: 0.9rem;
   color: #9EABB3;
   text-align: center;
@@ -628,7 +612,7 @@ a:hover {
   bottom: 1em;
   left: 1em;
   right: 1em;
-  font-family: 'Lora', serif;
+  font-family: 'Tinos', serif;
   font-size: .7rem;
   line-height: 1.4em;
   color: #e6e9eb;
@@ -804,7 +788,7 @@ a:hover {
     bottom: 1em;
     left: 1em;
     right: 1em;
-    font-family: 'Lora', serif;
+    font-family: 'Tinos', serif;
     font-size: .7rem;
     line-height: 1.8em;
     color: #e6e9eb;
@@ -821,6 +805,22 @@ a:hover {
 
   .sidebar .social-icons {
     margin-top: 0px;
+  }
+
+  .content .post .post-thumb {
+    float: none;
+    margin: .7em 0;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+  }
+
+  .content .post .post-thumb:after {
+    padding-top: 45%;
+    display: block;
+    content: '';
   }
 }
 
