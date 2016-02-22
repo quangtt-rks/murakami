@@ -17,12 +17,14 @@ Check it out on [my blog](http://quangteomedia.com).
 
 ## SEO
 - Post tags as meta keywords
+- Structured Data (passed Google Structured Data Testing Tool)
+- Targeting language (hreflang tag, default is `vi` - Vietnamese)
+- Apply some standards of AMP HTML (but not much effective, customize Ghost HTML is hard as shit)
 
 
 ## // TODO
-- Fix errors on Google Structured Data Testing Tool (Articles Rich Snippets & AMP Articles)
-- Fix Google International Targeting
-- Apply some standards of AMP HTML
+- Trying to fix validation errors of AMP HTML Validation
+- ...
 
 ## Installation
 * Goto your ghost theme directory
