@@ -425,19 +425,39 @@ a:hover {
     -webkit-transform: translateZ(0);
     text-align: center;
 
-    color: #fff;
+    color: #4a4a4a;
     background: #303538 no-repeat center center;
     background-position: 20%;
     background-size: cover;
+    box-shadow: 0 0 9px #a9a9a9;
 }
 
 .sidebar a {
-    color: white;
+    color: #4a4a4a;
 }
 
 .sidebar a:hover {
-    color: #00ff9c;
-    text-shadow: 1px 1px 3px #666;
+    color: #212121;
+}
+
+.sidebar a.icon-facebook-squared:hover {
+    color: #3b5998;
+}
+
+.sidebar a.icon-flickr:hover {
+    color: #ed1983;
+}
+
+.sidebar a.icon-instagram:hover {
+    color: #895a4d;
+}
+
+.sidebar a.icon-tumblr-squared:hover {
+    color: #314358;
+}
+
+.sidebar a.icon-mail-alt:hover {
+    color: #a80002;
 }
 
 .sidebar .logo {
@@ -538,9 +558,9 @@ a:hover {
 
 .main-nav ul li a:hover {
     transition: .2s all;
+    text-decoration: underline;
 
-    color: #00ff9c;
-    text-shadow: 1px 1px 3px #666;
+    color: #212121;
 }
 
 .main-nav ul li:last-child {
@@ -635,7 +655,7 @@ a:hover {
 .separator {
     display: block;
 
-    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    border-bottom: 1px solid rgba(74, 74, 74, .5);
 }
 
 .dotted-separator {
