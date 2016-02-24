@@ -543,6 +543,12 @@ a:hover {
     list-style: none;
 }
 
+.main-nav ul li.main-nav-current a {
+    text-decoration: underline;
+
+    color: #212121;
+}
+
 .main-nav ul li a {
     font-size: 1em;
     line-height: 2em;

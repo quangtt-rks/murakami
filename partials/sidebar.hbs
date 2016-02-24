@@ -1,10 +1,10 @@
 <div class="sidebar {{#if @blog.cover}}my-sidebar-bg{{/if}}" role="aside">
     <header class="header" role="banner">
         {{! The logo of the blog }}
-        <a href="/"><img id="blog" class="logo" src="{{@blog.logo}}"></a>
+        <a href="/"><img id="blog" class="logo" src="{{@blog.logo}}" alt="The blog logo" title="Handsome huh?"></a>
 
         {{! The title of the blog }}
-        <h1 class="title"><a href="/">{{@blog.title}}</a></h1>
+        <h1 class="title"><a href="/" title="Go home!">{{@blog.title}}</a></h1>
 
         {{! The description of the blog }}
         <p class="description">{{@blog.description}}</p>
@@ -13,7 +13,7 @@
         <div class="separator"></div>
 
         {{! Navigation menu }}
-        {{> "nav"}}
+        {{navigation}}
 
         {{! Social links }}
         {{> "social"}}
