@@ -130,7 +130,7 @@ html {
 
 body {
     font-family: 'Noto Serif', serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.45em;
 
     height: 100%;
@@ -525,7 +525,7 @@ a:hover {
 }
 
 .sidebar .description {
-    font-size: .9em;
+    font-size: 1em;
     font-style: italic;
     line-height: 1.5em;
 
@@ -724,7 +724,7 @@ a:hover {
 
 .pagination {
     font-family: 'Noto Serif', serif;
-    font-size: .9rem;
+    font-size: .9em;
 
     position: relative;
 
