@@ -140,14 +140,14 @@ body {
 }
 
 ::-moz-selection {
-    color: #222;
-    background: #d6edff;
+    color: #f5f5f5;
+    background: #4a4a4a;
     text-shadow: none;
 }
 
 ::selection {
-    color: #222;
-    background: #d6edff;
+    color: #f5f5f5;
+    background: #4a4a4a;
     text-shadow: none;
 }
 
