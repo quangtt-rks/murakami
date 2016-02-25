@@ -107,6 +107,12 @@
 .icon-stackoverflow:before {
     content: '\e810';
 }
+.icon-gplus-squared:before {
+    content: '\e811';
+}
+.icon-twitter-squared:before {
+    content: '\e812';
+}
 
 *,
 *:before,
