@@ -473,6 +473,7 @@ a:hover {
     height: auto;
     margin: 0 auto 20px auto;
 
+    border: 2px #d8d8d8 solid;
     border-radius: 50%;
     background: no-repeat;
     background-size: contain;
@@ -496,7 +497,7 @@ a:hover {
 }
 
 .sidebar .social-icons {
-    position: absolute;
+    /*position: absolute;*/
     right: 0;
     left: 0;
     /* background: red; */
@@ -865,7 +866,7 @@ a:hover {
         position: relative;
 
         width: 100%;
-        height: 250px;
+        /*height: 250px;*/
         padding: 20px 20px 20px 20px;
 
         -webkit-transform: translateZ(0);
@@ -898,7 +899,7 @@ a:hover {
     }
 
     .separator {
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -919,7 +920,7 @@ a:hover {
     .main-nav ul li {
         display: inline-block;
 
-        width: 20%;
+        width: 100%;
 
         list-style: none;
         /* margin: 0 0.5em 0 0.5em; */
@@ -997,6 +998,6 @@ a:hover {
 
 @media all and (max-width: 400px) {
     .main-nav ul li {
-        width: 32%;
+        width: 100%;
     }
 }
