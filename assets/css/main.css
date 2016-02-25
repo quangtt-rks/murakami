@@ -129,7 +129,7 @@ html {
 }
 
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Serif', serif;
     font-size: 1.2em;
     line-height: 1.45em;
 
@@ -157,7 +157,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Serif', serif;
     line-height: 1;
 
     margin-top: 0;
@@ -723,7 +723,7 @@ a:hover {
 /* End of Project Page */
 
 .pagination {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Serif', serif;
     font-size: .9rem;
 
     position: relative;
@@ -748,7 +748,7 @@ a:hover {
 }
 
 .sidebar .site-footer {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Serif', serif;
     font-size: .7rem;
     line-height: 1.4em;
 
@@ -949,7 +949,7 @@ a:hover {
     }
 
     .body-footer .site-footer {
-        font-family: 'EB Garamond', serif;
+        font-family: 'Noto Serif', serif;
         font-size: .7rem;
         line-height: 1.8em;
 
