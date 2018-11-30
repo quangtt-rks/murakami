@@ -1,3 +1,5 @@
+# This theme is no longer maintained :(
+
 # Murakami
 Murakami is a customized minimalistic [Ghost](https://ghost.org/) theme inspired by
 [KISS](https://github.com/calincru/KISS).
